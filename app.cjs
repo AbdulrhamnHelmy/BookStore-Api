@@ -6,7 +6,7 @@ const bookRouter = require("./Routes/book.cjs");
 const app = express();
 app.use(bodyparser.json());
 
-const url = "mongodb+srv://mac:mac123mac@mac.vrxfwye.mongodb.net/mac";
+const url = "mongodb+srv://mac:@mac.vrxfwye.mongodb.net/mac";
 
 const connectDB = async () => {
   try {
